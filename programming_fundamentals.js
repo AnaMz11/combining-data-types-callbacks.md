@@ -38,7 +38,7 @@
 // let es p c and n are variables given a value that may change
 // while loop while (c is less than equal to l) go inside the loop and execute the fucntion { n = c + p } n = 1.
 // [1,0] = [0,1]
-
+// if c is divisible by 2 (even) add them
 
 // const f2 = (limit) => {
 //   let evenSum = 0;
@@ -57,7 +57,7 @@
 
 // console.log(f2(55))
 
-
+// loop
 // next = Current + previous
 // ? = 1 + 0
 // 2 = 1 + 1
@@ -69,5 +69,22 @@
 // 34 = 21 + 13
 // 55  = 34 + 21
 // if current number is divisible by 2 + we add them
+
+// answer with comments
+
+// In keeping with one of our programming principals (write code for the maintainer): What would have been a more semantic name for this function (hint: this is a problem we had for either lab or hw and is considered a classic ) - are there any other variable names or things that would make this code easier to read and understand?
+
+//this is similar to the fibonacci sequence - the varibale could have been named differenty.
+//instead of using in F1 single letters p,c,n and in F2 current previous next, they could be more specifit such as "evenNum" "index or Array"
+
+// If you started a new job and your project was to expand the functionality of this function by allowing a second argument and then based on that second argument, returning the sum of even or odd numbers, which code would you rather start working with f or f2?
+
+// f2 because it is written more simple and could work off it more easily than the first fucntion.
+// the if statment on F2 is a lot eaiser to understand than the first function.
+
+//Finally, the 'shorter' code style doesn't use semi-colons, except for the fourth line. Remove this semi-colon! Run the code, is this semi-colon necessary?
+
+// yes the semicolons are necessary
+
 
 
